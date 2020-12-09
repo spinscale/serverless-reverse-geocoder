@@ -21,7 +21,7 @@ spent a lot of time fixing all the paths.
 Make sure GraalVM is installed, if you have [sdkman](https://sdkman.io) installed, run
 
 ```bash
-sdk install java 20.3.0.r8-grl
+sdk install java 20.3.0.r11-grl
 ```
 
 Download the geo shape and point data by running 
