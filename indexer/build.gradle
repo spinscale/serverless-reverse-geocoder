@@ -1,0 +1,27 @@
+plugins {
+  id 'java'
+  id "de.undercouch.download" version "4.1.1"
+}
+
+dependencies {
+  compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.0'
+  compile 'com.squareup.okhttp3:okhttp:4.9.0'
+}
+
+task(buildIndex, dependsOn: 'classes', type: JavaExec) {
+  main = 'de.spinscale.index.CsvShapeIndexer'
+  classpath = sourceSets.main.runtimeClasspath
+  args 'src/main/resources/downloads/', 'build/indices'
+}
+test.dependsOn 'buildIndex'
+
+task(downloadShapes, type: JavaExec) {
+  main = 'de.spinscale.index.CsvShapeParser'
+  classpath = sourceSets.main.runtimeClasspath
+  args 'src/main/resources/downloads/'
+}
+
+task(downloadCsvPointFile, type: Download) {
+  src 'http://www.fa-technik.adfc.de/code/opengeodb/DE.tab'
+  dest 'src/main/resources/'
+}

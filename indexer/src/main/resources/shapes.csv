@@ -1,0 +1,722 @@
+id,filename,url,points
+#########
+# germany big cities up to 20k inhabitants
+#########
+München,muenchen.json,https://data.whosonfirst.org/101/748/479/101748479.geojson
+Berlin,,https://data.whosonfirst.org/101/748/799/101748799.geojson
+Hamburg,,https://data.whosonfirst.org/101/748/841/101748841.geojson
+Köln,koeln.json,https://data.whosonfirst.org/101/752/771/101752771.geojson
+Frankfurt (am Main),frankfurt-am-main.json,https://data.whosonfirst.org/101/913/837/101913837.geojson
+Stuttgart,,https://data.whosonfirst.org/101/905/809/101905809.geojson
+Düsseldorf,duesseldorf.json,https://data.whosonfirst.org/101/748/671/101748671.geojson
+Dortmund,,https://data.whosonfirst.org/101/748/719/101748719.geojson
+Essen,,https://data.whosonfirst.org/101/748/709/101748709.geojson
+Leipzig,,https://data.whosonfirst.org/101/748/685/101748685.geojson
+Bremen,,https://data.whosonfirst.org/101/748/829/101748829.geojson
+Nürnberg,nuernberg.json,https://data.whosonfirst.org/101/905/935/101905935.geojson,49.436236|11.082745
+Hannover,,https://data.whosonfirst.org/101/748/819/101748819.geojson
+Dresden,,https://data.whosonfirst.org/101/752/773/101752773.geojson
+Duisburg,,https://data.whosonfirst.org/101/748/713/101748713.geojson
+Wuppertal,,https://data.whosonfirst.org/101/748/657/101748657.geojson
+Bielefeld,,https://data.whosonfirst.org/101/748/767/101748767.geojson
+Bonn,,https://data.whosonfirst.org/101/748/595/101748595.geojson
+Münster,muenster.json,https://data.whosonfirst.org/101/913/895/101913895.geojson
+Karlsruhe,,https://data.whosonfirst.org/101/748/527/101748527.geojson
+Mannheim,,https://data.whosonfirst.org/101/748/549/101748549.geojson
+Augsburg,,https://data.whosonfirst.org/101/748/481/101748481.geojson
+Wiesbaden,,https://data.whosonfirst.org/101/907/107/101907107.geojson,50.079182|8.260364
+Braunschweig,,https://data.whosonfirst.org/101/909/589/101909589.geojson,52.275245|10.524079
+Mönchengladbach,moenchengladbach.json,https://data.whosonfirst.org/101/907/593/101907593.geojson,51.167193|6.411956
+Gelsenkirchen,,https://data.whosonfirst.org/101/907/659/101907659.geojson,51.553934|7.071173
+Kiel,,https://data.whosonfirst.org/101/748/869/101748869.geojson
+Aachen,,https://data.whosonfirst.org/101/748/621/101748621.geojson
+Chemnitz,,https://data.whosonfirst.org/101/748/601/101748601.geojson
+Halle (Saale),halle.json,https://data.whosonfirst.org/101/748/705/101748705.geojson
+Magdeburg,,https://data.whosonfirst.org/101/748/781/101748781.geojson
+Freiburg (im Breisgau),freiburg.json,https://data.whosonfirst.org/101/905/681/101905681.geojson
+Krefeld,,https://data.whosonfirst.org/117/561/140/3/1175611403.geojson,51.345247|6.57968
+Lübeck,luebeck.json,https://data.whosonfirst.org/101/748/855/101748855.geojson
+Mainz,,https://data.whosonfirst.org/117/561/140/5/1175611405.geojson
+Erfurt,,https://data.whosonfirst.org/101/748/625/101748625.geojson
+Oberhausen,,https://data.whosonfirst.org/101/748/715/101748715.geojson
+Rostock,,https://data.whosonfirst.org/101/748/865/101748865.geojson
+Kassel,,https://data.whosonfirst.org/101/748/659/101748659.geojson
+Hagen,,https://data.whosonfirst.org/101/748/679/101748679.geojson
+Saarbrücken,saarbruecken.json,https://data.whosonfirst.org/101/905/991/101905991.geojson
+Hamm,,https://data.whosonfirst.org/101/748/739/101748739.geojson
+Potsdam,,https://data.whosonfirst.org/101/748/815/101748815.geojson
+Ludwigshafen am Rhein,ludwigshafen.json,https://data.whosonfirst.org/101/748/547/101748547.geojson
+Mühlheim an der Ruhr,muehlheim_an_der_ruhr.json,https://data.whosonfirst.org/101/913/817/101913817.geojson
+Oldenburg,,https://data.whosonfirst.org/137/768/811/1/1377688111.geojson
+Osnabrück,osnabrueck.json,https://data.whosonfirst.org/101/748/795/101748795.geojson
+Leverkusen,,https://data.whosonfirst.org/101/748/641/101748641.geojson
+Heidelberg,,https://data.whosonfirst.org/101/906/011/101906011.geojson,49.405509|8.69417
+Solingen,,https://data.whosonfirst.org/101/748/649/101748649.geojson
+Darmstadt,,https://data.whosonfirst.org/101/906/949/101906949.geojson,49.881469|8.664711
+Herne,,https://data.whosonfirst.org/101/748/711/101748711.geojson
+Neuss,,https://data.whosonfirst.org/101/748/665/101748665.geojson
+Regensburg,,https://data.whosonfirst.org/101/748/525/101748525.geojson
+Paderborn,,https://data.whosonfirst.org/101/748/761/101748761.geojson
+Ingolstadt,,https://data.whosonfirst.org/101/905/811/101905811.geojson,48.755118|11.39493
+Offenbach am Main,offenbach.json,https://data.whosonfirst.org/117/561/131/5/1175611315.geojson
+Würzburg,wuerzburg.json,https://data.whosonfirst.org/101/748/557/101748557.geojson
+Fürth,fuerth.json,https://data.whosonfirst.org/101/748/545/101748545.geojson
+Ulm,,https://data.whosonfirst.org/101/748/485/101748485.geojson
+Heilbronn,,https://data.whosonfirst.org/101/748/529/101748529.geojson
+Pforzheim,,https://data.whosonfirst.org/101/905/847/101905847.geojson,48.876456|8.712641
+Wolfsburg,,https://data.whosonfirst.org/101/748/803/101748803.geojson
+Göttingen,goettingen.json,https://data.whosonfirst.org/101/748/721/101748721.geojson
+Bottrop,,https://data.whosonfirst.org/101/914/211/101914211.geojson
+Reutlingen,,https://data.whosonfirst.org/101/748/489/101748489.geojson
+Koblenz,,https://data.whosonfirst.org/101/751/761/101751761.geojson
+Bremerhaven,,https://data.whosonfirst.org/101/748/845/101748845.geojson
+Recklinghausen,,https://data.whosonfirst.org/101/748/751/101748751.geojson
+Bergisch Gladbach,bergisch_gladbach.json,https://data.whosonfirst.org/101/748/647/101748647.geojson
+Erlangen,,https://data.whosonfirst.org/101/910/073/101910073.geojson,49.582336|10.978148
+Jena,,https://data.whosonfirst.org/101/748/613/101748613.geojson
+Remscheid,,https://data.whosonfirst.org/101/748/651/101748651.geojson
+Trier,,https://data.whosonfirst.org/101/748/559/101748559.geojson
+Salzgitter,,https://data.whosonfirst.org/101/748/779/101748779.geojson
+Moers,,https://data.whosonfirst.org/101/748/759/101748759.geojson
+Siegen,,https://data.whosonfirst.org/101/748/643/101748643.geojson
+Hildesheim,,https://data.whosonfirst.org/101/748/791/101748791.geojson
+Cottbus,,https://data.whosonfirst.org/101/748/763/101748763.geojson
+Gütersloh,guetersloh.json,https://data.whosonfirst.org/101/748/773/101748773.geojson
+Kaiserslautern,,https://data.whosonfirst.org/101/748/541/101748541.geojson
+Witten,,https://data.whosonfirst.org/101/748/697/101748697.geojson
+Hanau,,https://data.whosonfirst.org/101/748/583/101748583.geojson
+Schwerin,,https://data.whosonfirst.org/101/748/851/101748851.geojson
+Gera,,https://data.whosonfirst.org/101/748/611/101748611.geojson
+Esslingen am Neckar,esslingen_am_neckar.json,https://data.whosonfirst.org/101/748/503/101748503.geojson
+Ludwigsburg,,https://data.whosonfirst.org/101/748/521/101748521.geojson
+Iserlohn,,https://data.whosonfirst.org/101/748/695/101748695.geojson
+Düren,dueren.json,https://data.whosonfirst.org/101/748/629/101748629.geojson
+Tübingen,tuebingen.json,https://data.whosonfirst.org/101/748/493/101748493.geojson
+Zwickau,,https://data.whosonfirst.org/101/748/603/101748603.geojson
+Flensburg,,https://data.whosonfirst.org/101/906/421/101906421.geojson,54.784991|9.438526
+Gießen,giessen.json,https://data.whosonfirst.org/101/907/521/101907521.geojson
+Ratingen,,https://data.whosonfirst.org/101/914/235/101914235.geojson
+Lünen,luenen.json,https://data.whosonfirst.org/101/748/737/101748737.geojson
+Villingen-Schwenningen,,https://data.whosonfirst.org/101/748/477/101748477.geojson
+Konstanz,,https://data.whosonfirst.org/101/748/473/101748473.geojson
+Marl,,https://data.whosonfirst.org/101/748/743/101748743.geojson
+Worms,,https://data.whosonfirst.org/101/906/801/101906801.geojson,49.649434|8.324514
+Velbert,,https://data.whosonfirst.org/101/748/673/101748673.geojson
+Minden,,https://data.whosonfirst.org/101/748/811/101748811.geojson
+Dessau-Roßlau,dessau-rosslau.json,https://data.whosonfirst.org/101/748/765/101748765.geojson
+Neumünster,neumuenster.json,https://data.whosonfirst.org/117/561/138/1/1175611381.geojson
+Norderstedt,,https://data.whosonfirst.org/101/748/857/101748857.geojson
+Delmenhorst,,https://data.whosonfirst.org/101/748/831/101748831.geojson
+Bamberg,,https://data.whosonfirst.org/101/748/561/101748561.geojson
+Viersen,,https://data.whosonfirst.org/101/748/689/101748689.geojson
+Marburg,,https://data.whosonfirst.org/101/748/615/101748615.geojson
+Wilhelmshaven,,https://data.whosonfirst.org/101/748/847/101748847.geojson
+Rheine,,https://data.whosonfirst.org/101/748/805/101748805.geojson
+Lüneburg,lueneburg.json,https://data.whosonfirst.org/101/748/837/101748837.geojson
+Gladbeck,,https://data.whosonfirst.org/101/748/747/101748747.geojson
+Celle,,https://data.whosonfirst.org/101/748/827/101748827.geojson
+Lüdenscheid,luedenscheid.json,https://data.whosonfirst.org/101/748/693/101748693.geojson
+Brandenburg an der Havel,brandenburg_an_der_havel.json,https://data.whosonfirst.org/101/748/813/101748813.geojson
+Castrop-Rauxel,,https://data.whosonfirst.org/101/748/745/101748745.geojson
+Dorsten,,https://data.whosonfirst.org/101/748/741/101748741.geojson
+Aschaffenburg,,https://data.whosonfirst.org/101/748/567/101748567.geojson
+Bocholt,,https://data.whosonfirst.org/101/748/787/101748787.geojson
+Landshut,,https://data.whosonfirst.org/101/748/491/101748491.geojson
+Arnsberg,,https://data.whosonfirst.org/101/748/703/101748703.geojson
+Detmold,,https://data.whosonfirst.org/101/748/777/101748777.geojson
+Bayreuth,,https://data.whosonfirst.org/101/748/565/101748565.geojson
+Troisdorf,,https://data.whosonfirst.org/101/748/607/101748607.geojson
+Fulda,,https://data.whosonfirst.org/101/748/593/101748593.geojson
+Dinslaken,,https://data.whosonfirst.org/101/748/757/101748757.geojson
+Lippstadt,,https://data.whosonfirst.org/101/748/729/101748729.geojson
+Aalen,,https://data.whosonfirst.org/101/748/515/101748515.geojson
+Herford,,https://data.whosonfirst.org/101/907/701/101907701.geojson,52.114054|8.662599
+Kerpen,,https://data.whosonfirst.org/101/748/635/101748635.geojson
+Neubrandenburg,,https://data.whosonfirst.org/101/748/849/101748849.geojson
+Dormagen,,https://data.whosonfirst.org/101/748/667/101748667.geojson
+Neuwied,,https://data.whosonfirst.org/101/748/585/101748585.geojson
+Sindelfingen,,https://data.whosonfirst.org/101/748/511/101748511.geojson
+Plauen,,https://data.whosonfirst.org/101/748/587/101748587.geojson
+Weimar,,https://data.whosonfirst.org/101/748/623/101748623.geojson
+Kempten (Allgäu),kempten_allgaeu.json,https://data.whosonfirst.org/101/748/467/101748467.geojson
+Rüsselsheim,ruesselsheim.json,https://data.whosonfirst.org/101/748/571/101748571.geojson
+Bergheim,,https://data.whosonfirst.org/101/748/633/101748633.geojson
+Herten,,https://data.whosonfirst.org/101/748/749/101748749.geojson
+Rosenheim,,https://data.whosonfirst.org/101/748/471/101748471.geojson
+Grevenbroich,,https://data.whosonfirst.org/101/748/669/101748669.geojson
+Greifswald,,https://data.whosonfirst.org/101/748/863/101748863.geojson
+Stralsund,,https://data.whosonfirst.org/101/748/867/101748867.geojson
+Offenburg,,https://data.whosonfirst.org/101/748/497/101748497.geojson
+Hürth,huerth.json,https://data.whosonfirst.org/101/748/639/101748639.geojson
+Wesel,,https://data.whosonfirst.org/101/748/755/101748755.geojson
+Garbsen,,https://data.whosonfirst.org/101/748/817/101748817.geojson
+Friedrichshafen,,https://data.whosonfirst.org/101/748/469/101748469.geojson
+Schwäbisch-Gmünd,schwaebisch-gmuend.json,https://data.whosonfirst.org/101/748/517/101748517.geojson
+Langenfeld (Rheinland),langenfeld.json,https://data.whosonfirst.org/101/748/677/101748677.geojson
+Nordhorn,,https://data.whosonfirst.org/101/748/823/101748823.geojson
+Schweinfurt,,https://data.whosonfirst.org/101/748/575/101748575.geojson
+Pulheim,,https://data.whosonfirst.org/101/748/631/101748631.geojson
+Bad Salzuflen,bad_salzuflen.json,https://data.whosonfirst.org/101/748/775/101748775.geojson
+Langenhagen,,https://data.whosonfirst.org/101/748/821/101748821.geojson
+Hattingen,,https://data.whosonfirst.org/101/907/595/101907595.geojson,51.375853|7.185315
+Baden-Baden,,https://data.whosonfirst.org/101/748/507/101748507.geojson
+Waiblingen,,https://data.whosonfirst.org/101/748/523/101748523.geojson
+Hilden,,https://data.whosonfirst.org/101/748/675/101748675.geojson
+Meerbusch,,https://data.whosonfirst.org/101/748/661/101748661.geojson
+Görlitz,goerlitz.json,https://data.whosonfirst.org/101/748/727/101748727.geojson
+Eschweiler,,https://data.whosonfirst.org/101/748/617/101748617.geojson
+Hameln,,https://data.whosonfirst.org/101/748/783/101748783.geojson
+Göppingen,goeppingen.json,https://data.whosonfirst.org/101/748/499/101748499.geojson
+Euskirchen,,https://data.whosonfirst.org/101/748/597/101748597.geojson
+Unna,,https://data.whosonfirst.org/101/748/733/101748733.geojson
+Neu-Ulm,,https://data.whosonfirst.org/101/748/487/101748487.geojson
+Kleve,,https://data.whosonfirst.org/101/839/507/101839507.geojson
+Ibbenbüren,ibbenbueren.json,https://data.whosonfirst.org/101/748/809/101748809.geojson
+Wolfenbüttel,wolfenbuettel.json,https://data.whosonfirst.org/101/748/793/101748793.geojson
+Passau,,https://data.whosonfirst.org/101/748/495/101748495.geojson
+Frechen,,https://data.whosonfirst.org/101/810/319/101810319.geojson
+Ahlen,,https://data.whosonfirst.org/101/748/769/101748769.geojson
+Wetzlar,,https://data.whosonfirst.org/101/748/599/101748599.geojson
+Rastatt,,https://data.whosonfirst.org/101/761/891/101761891.geojson
+Erftstadt,,https://data.whosonfirst.org/101/748/637/101748637.geojson
+Elmshorn,,https://data.whosonfirst.org/101/838/093/101838093.geojson
+Peine,,https://data.whosonfirst.org/101/807/589/101807589.geojson
+Böblingen,boeblingen.json,https://data.whosonfirst.org/101/755/903/101755903.geojson
+Emden,,https://data.whosonfirst.org/101/748/839/101748839.geojson
+Speyer,,https://data.whosonfirst.org/101/748/531/101748531.geojson
+Willich,,https://data.whosonfirst.org/101/748/687/101748687.geojson
+Ravensburg,,https://data.whosonfirst.org/101/828/649/101828649.geojson
+Gummersbach,,https://data.whosonfirst.org/101/748/653/101748653.geojson
+Goslar,,https://data.whosonfirst.org/101/820/883/101820883.geojson
+Bornheim,,https://data.whosonfirst.org/101/808/839/101808839.geojson
+Cuxhaven,,https://data.whosonfirst.org/101/748/853/101748853.geojson
+Rheda-Wiedenbrück,rheda-wiedenbrueck.json,https://data.whosonfirst.org/101/809/097/101809097.geojson
+Frankenthal,,https://data.whosonfirst.org/101/755/923/101755923.geojson
+Freising,,https://data.whosonfirst.org/101/785/505/101785505.geojson
+Bergkamen,,https://data.whosonfirst.org/101/748/731/101748731.geojson
+Leonberg,,https://data.whosonfirst.org/117/561/129/9/1175611299.geojson
+Lörrach,loerrach.json,https://data.whosonfirst.org/101/828/631/101828631.geojson
+Alsdorf,,https://data.whosonfirst.org/101/811/035/101811035.geojson
+Hennef (Sieg),hennef.json,https://data.whosonfirst.org/101/907/381/101907381.geojson,50.755883|7.329426
+Dachau,,https://data.whosonfirst.org/101/785/371/101785371.geojson
+Soest,,https://data.whosonfirst.org/101/810/239/101810239.geojson
+Stade,,https://data.whosonfirst.org/101/806/539/101806539.geojson
+Singen (Hohentwiel),singen.json,https://data.whosonfirst.org/101/828/641/101828641.geojson
+Straubing,,https://data.whosonfirst.org/101/783/029/101783029.geojson
+Gronau (Westfalen),gronau.json,https://data.whosonfirst.org/101/807/567/101807567.geojson
+Oranienburg,,https://data.whosonfirst.org/101/907/977/101907977.geojson,52.771728|13.286671
+Bruchsal,,https://data.whosonfirst.org/101/826/709/101826709.geojson
+Rodgau,,https://data.whosonfirst.org/101/811/757/101811757.geojson
+Weinheim,,https://data.whosonfirst.org/101/839/857/101839857.geojson
+Albstadt,,https://data.whosonfirst.org/101/764/311/101764311.geojson
+Bünde,buende.json,https://data.whosonfirst.org/101/807/557/101807557.geojson
+Fellbach,,https://data.whosonfirst.org/101/761/995/101761995.geojson
+Gotha,,https://data.whosonfirst.org/101/823/221/101823221.geojson
+Filderstadt,,https://data.whosonfirst.org/101/761/809/101761809.geojson
+Hof,,https://data.whosonfirst.org/101/841/157/101841157.geojson
+Oberursel,,https://data.whosonfirst.org/101/840/051/101840051.geojson
+Schwerte,,https://data.whosonfirst.org/101/760/495/101760495.geojson
+Herzogenrath,,https://data.whosonfirst.org/101/839/485/101839485.geojson
+Borken,,https://data.whosonfirst.org/101/809/157/101809157.geojson
+Wismar,,https://data.whosonfirst.org/117/561/138/9/1175611389.geojson
+Kamen,,https://data.whosonfirst.org/101/756/021/101756021.geojson
+Bietigheim-Bissingen,,https://data.whosonfirst.org/101/760/643/101760643.geojson
+Pinneberg,,https://data.whosonfirst.org/101/756/049/101756049.geojson
+Erkelenz,,https://data.whosonfirst.org/101/809/929/101809929.geojson
+Kaarst,,https://data.whosonfirst.org/101/755/991/101755991.geojson
+Memmingen,,https://data.whosonfirst.org/101/828/659/101828659.geojson
+Falkensee,,https://data.whosonfirst.org/101/756/035/101756035.geojson
+Kaufbeuren,,https://data.whosonfirst.org/101/787/529/101787529.geojson
+Lehrte,,https://data.whosonfirst.org/101/807/699/101807699.geojson
+Erkrath,,https://data.whosonfirst.org/101/913/815/101913815.geojson
+Neunkirchen,,https://data.whosonfirst.org/101/826/721/101826721.geojson
+Brühl,bruehl.json,https://data.whosonfirst.org/117/561/136/1/1175611361.geojson
+Melle,,https://data.whosonfirst.org/101/907/705/101907705.geojson,52.196328|8.353131
+Dülmen,duelmen.json,https://data.whosonfirst.org/101/809/043/101809043.geojson
+Lemgo,,https://data.whosonfirst.org/101/809/123/101809123.geojson
+Schwabach,,https://data.whosonfirst.org/101/833/013/101833013.geojson
+Freiberg,,https://data.whosonfirst.org/101/841/279/101841279.geojson
+Nürtingen,nuertingen.json,https://data.whosonfirst.org/101/826/701/101826701.geojson
+Königswinter,koenigswinter.json,https://data.whosonfirst.org/101/755/973/101755973.geojson
+Coburg,,https://data.whosonfirst.org/101/841/155/101841155.geojson
+Laatzen,,https://data.whosonfirst.org/101/756/033/101756033.geojson
+Siegburg,,https://data.whosonfirst.org/101/810/985/101810985.geojson
+Seevetal,,https://data.whosonfirst.org/101/806/337/101806337.geojson
+Wunstorf,,https://data.whosonfirst.org/101/807/691/101807691.geojson
+Nordhausen,,https://data.whosonfirst.org/101/822/231/101822231.geojson
+Homburg,,https://data.whosonfirst.org/101/759/621/101759621.geojson
+Ansbach,,https://data.whosonfirst.org/101/782/029/101782029.geojson
+Heinsberg,,https://data.whosonfirst.org/101/809/933/101809933.geojson
+Amberg,,https://data.whosonfirst.org/101/842/175/101842175.geojson
+Aurich,,https://data.whosonfirst.org/101/806/491/101806491.geojson
+Dreieich,,https://data.whosonfirst.org/101/811/755/101811755.geojson
+Eisenach,,https://data.whosonfirst.org/101/827/177/101827177.geojson
+Nettetal,,https://data.whosonfirst.org/112/602/880/3/1126028803.geojson
+Gifhorn,,https://data.whosonfirst.org/101/819/795/101819795.geojson
+Niederkassel,,https://data.whosonfirst.org/101/755/975/101755975.geojson
+Pirna,,https://data.whosonfirst.org/101/755/985/101755985.geojson
+Bitterfeld-Wolfen,,https://data.whosonfirst.org/101/841/411/101841411.geojson
+Würselen,wuerselen.json,https://data.whosonfirst.org/101/811/037/101811037.geojson,50.827979|6.150388
+Bernau,,https://data.whosonfirst.org/101/758/637/101758637.geojson
+Mettmann,,https://data.whosonfirst.org/101/810/021/101810021.geojson
+Bautzen,,https://data.whosonfirst.org/101/820/733/101820733.geojson
+Ahaus,,https://data.whosonfirst.org/101/807/565/101807565.geojson
+Maintal,,https://data.whosonfirst.org/101/755/945/101755945.geojson
+Ostfildern,,https://data.whosonfirst.org/101/761/799/101761799.geojson
+Ettlingen,,https://data.whosonfirst.org/101/826/713/101826713.geojson
+Völklingen,voelklingen.json,https://data.whosonfirst.org/101/906/007/101906007.geojson,49.220406|6.802569
+Stendal,,https://data.whosonfirst.org/101/819/945/101819945.geojson
+Freital,,https://data.whosonfirst.org/101/755/983/101755983.geojson
+Schorndorf,,https://data.whosonfirst.org/101/826/707/101826707.geojson
+Löhne,loehne.json,https://data.whosonfirst.org/101/838/039/101838039.geojson
+Hückelhoven,hueckelhoven.json,https://data.whosonfirst.org/101/809/931/101809931.geojson
+Leinfelden-Echterdingen,,https://data.whosonfirst.org/112/605/812/9/1126058129.geojson
+Buxtehude,,https://data.whosonfirst.org/101/906/029/101906029.geojson,53.462918|9.691857
+Halberstadt,,https://data.whosonfirst.org/101/820/899/101820899.geojson
+Eberswalde,,https://data.whosonfirst.org/101/841/451/101841451.geojson
+Germering,,https://data.whosonfirst.org/101/786/633/101786633.geojson
+Pirmasens,,https://data.whosonfirst.org/101/760/713/101760713.geojson
+Weißenfels,weissenfels.json,https://data.whosonfirst.org/101/841/293/101841293.geojson
+Bensheim,,https://data.whosonfirst.org/101/839/873/101839873.geojson
+Königs Wusterhausen,koenigs_wusterhausen.json,https://data.whosonfirst.org/101/841/423/101841423.geojson
+Emsdetten,,https://data.whosonfirst.org/101/807/629/101807629.geojson
+Kehl,,https://data.whosonfirst.org/101/753/099/101753099.geojson
+Wesseling,,https://data.whosonfirst.org/101/755/979/101755979.geojson
+Coesfeld,,https://data.whosonfirst.org/101/809/039/101809039.geojson
+Erding,,https://data.whosonfirst.org/101/785/405/101785405.geojson
+Beckum,,https://data.whosonfirst.org/101/809/065/101809065.geojson
+Ilmenau,,https://data.whosonfirst.org/101/824/685/101824685.geojson
+Warendorf,,https://data.whosonfirst.org/101/809/067/101809067.geojson
+Backnang,,https://data.whosonfirst.org/101/760/685/101760685.geojson
+Kamp-Lintfort,,https://data.whosonfirst.org/101/810/255/101810255.geojson
+Papenburg,,https://data.whosonfirst.org/101/806/223/101806223.geojson
+Neu-Isenburg,,https://data.whosonfirst.org/101/811/759/101811759.geojson
+Fürstenfeldbruck,fuerstenfeldbruck.json,https://data.whosonfirst.org/101/833/985/101833985.geojson
+Greven,,https://data.whosonfirst.org/101/807/635/101807635.geojson
+Ahrensburg,,https://data.whosonfirst.org/101/842/255/101842255.geojson
+Wedel,,https://data.whosonfirst.org/101/806/597/101806597.geojson
+Deggendorf,,https://data.whosonfirst.org/101/783/031/101783031.geojson
+Uelzen,,https://data.whosonfirst.org/101/820/671/101820671.geojson
+Stuhr,,https://data.whosonfirst.org/101/838/077/101838077.geojson
+Kornwestheim,,https://data.whosonfirst.org/101/755/905/101755905.geojson
+Goch,,https://data.whosonfirst.org/101/808/989/101808989.geojson
+Geldern,,https://data.whosonfirst.org/101/810/267/101810267.geojson
+Radebeul,,https://data.whosonfirst.org/101/756/003/101756003.geojson
+Dietzenbach,,https://data.whosonfirst.org/101/811/741/101811741.geojson
+Merseburg,,https://data.whosonfirst.org/101/841/333/101841333.geojson
+Hemer,,https://data.whosonfirst.org/101/756/001/101756001.geojson
+Steinfurt,,https://data.whosonfirst.org/101/807/639/101807639.geojson
+Viernheim,,https://data.whosonfirst.org/101/813/035/101813035.geojson
+Zweibrücken,zweibruecken.json,https://data.whosonfirst.org/101/759/527/101759527.geojson
+Balingen,,https://data.whosonfirst.org/101/764/313/101764313.geojson
+Barsinghausen,,https://data.whosonfirst.org/101/807/697/101807697.geojson
+Crailsheim,,https://data.whosonfirst.org/101/760/911/101760911.geojson
+Seelze,,https://data.whosonfirst.org/101/807/689/101807689.geojson
+Haßloch,hassloch.json,https://data.whosonfirst.org/101/759/711/101759711.geojson
+Schortens,,https://data.whosonfirst.org/101/806/523/101806523.geojson
+Nidderau,,https://data.whosonfirst.org/101/812/173/101812173.geojson
+Rheinstetten,,https://data.whosonfirst.org/101/760/735/101760735.geojson
+Burgwedel,,https://data.whosonfirst.org/101/807/713/101807713.geojson
+Nördlingen,noerdlingen.json,https://data.whosonfirst.org/101/783/121/101783121.geojson
+Meinerzhagen,,https://data.whosonfirst.org/101/810/067/101810067.geojson
+Wachtberg,,https://data.whosonfirst.org/112/586/393/3/1125863933.geojson
+Bruchköbel,bruchkoebel.json,https://data.whosonfirst.org/101/812/151/101812151.geojson
+Enger,,https://data.whosonfirst.org/101/838/043/101838043.geojson
+Duderstadt,,https://data.whosonfirst.org/101/810/163/101810163.geojson
+Mössingen,moessingen.json,https://data.whosonfirst.org/101/827/525/101827525.geojson
+Werl,,https://data.whosonfirst.org/101/810/237/101810237.geojson
+Einbeck,,https://data.whosonfirst.org/101/808/967/101808967.geojson
+Neuruppin,,https://data.whosonfirst.org/101/820/043/101820043.geojson
+Geestland,,https://data.whosonfirst.org/137/775/249/3/1377752493.geojson
+Bramsche,,https://data.whosonfirst.org/101/807/747/101807747.geojson
+Rheinberg,,https://data.whosonfirst.org/101/810/257/101810257.geojson
+Ganderkesee,,https://data.whosonfirst.org/101/806/239/101806239.geojson
+Kreuztal,,https://data.whosonfirst.org/101/755/851/101755851.geojson
+Schramberg,,https://data.whosonfirst.org/101/764/299/101764299.geojson
+Seligenstadt,,https://data.whosonfirst.org/101/840/017/101840017.geojson
+Quickborn,,https://data.whosonfirst.org/101/806/609/101806609.geojson
+Soltau,,https://data.whosonfirst.org/101/806/265/101806265.geojson
+Geseke,,https://data.whosonfirst.org/117/561/136/3/1175611363.geojson,51.634848|8.492072
+Lindlar,,https://data.whosonfirst.org/101/810/003/101810003.geojson
+Schwetzingen,,https://data.whosonfirst.org/101/755/925/101755925.geojson
+Aichach,,https://data.whosonfirst.org/101/784/155/101784155.geojson
+Stadtallendorf,,https://data.whosonfirst.org/101/810/999/101810999.geojson
+Versmold,,https://data.whosonfirst.org/101/809/099/101809099.geojson
+Eschborn,,https://data.whosonfirst.org/101/755/937/101755937.geojson
+Sondershausen,,https://data.whosonfirst.org/101/822/923/101822923.geojson
+Puchheim,,https://data.whosonfirst.org/101/786/637/101786637.geojson
+Sonthofen,,https://data.whosonfirst.org/101/842/025/101842025.geojson
+Ottobrunn,,https://data.whosonfirst.org/101/756/221/101756221.geojson
+Ilsede,,https://data.whosonfirst.org/101/808/091/101808091.geojson
+Korschenbroich,,https://data.whosonfirst.org/101/810/017/101810017.geojson
+Rheinfelden,,https://data.whosonfirst.org/101/765/249/101765249.geojson
+Leer,,https://data.whosonfirst.org/101/806/313/101806313.geojson
+Saarlouis,,https://data.whosonfirst.org/101/874/347/101874347.geojson
+Kempen,,https://data.whosonfirst.org/101/810/055/101810055.geojson
+Datteln,,https://data.whosonfirst.org/101/808/915/101808915.geojson
+Wermelskirchen,,https://data.whosonfirst.org/101/809/921/101809921.geojson
+Lage,,https://data.whosonfirst.org/101/809/121/101809121.geojson
+Winsen,,https://data.whosonfirst.org/101/806/961/101806961.geojson
+Mörfelden-Walldorf,moerfelden-walldorf.json,https://data.whosonfirst.org/137/775/274/9/1377752749.geojson
+Suhl,,https://data.whosonfirst.org/101/841/163/101841163.geojson
+Cloppenburg,,https://data.whosonfirst.org/101/808/035/101808035.geojson
+Meppen,,https://data.whosonfirst.org/101/807/967/101807967.geojson
+Sinsheim,,https://data.whosonfirst.org/101/761/005/101761005.geojson
+Tuttlingen,,https://data.whosonfirst.org/101/764/069/101764069.geojson
+Oer-Erkenschwick,,https://data.whosonfirst.org/101/808/907/101808907.geojson
+Herrenberg,,https://data.whosonfirst.org/117/561/135/9/1175611359.geojson
+Nienburg (Weser),nienburg.json,https://data.whosonfirst.org/101/807/827/101807827.geojson
+Georgsmarienhütte,georgsmarienhuette.json,https://data.whosonfirst.org/101/807/745/101807745.geojson
+Itzehoe,,https://data.whosonfirst.org/101/838/107/101838107.geojson
+Achim,,https://data.whosonfirst.org/101/806/247/101806247.geojson
+Fürstenwalde/Spree,fuerstenwalde.json,https://data.whosonfirst.org/101/819/685/101819685.geojson
+Delbrück,delbrueck.json,https://data.whosonfirst.org/101/808/943/101808943.geojson
+Altenburg,,https://data.whosonfirst.org/101/841/943/101841943.geojson
+Forchheim,,https://data.whosonfirst.org/101/827/055/101827055.geojson
+Naumburg,,https://data.whosonfirst.org/101/821/893/101821893.geojson
+Vechta,,https://data.whosonfirst.org/101/807/807/101807807.geojson
+Lampertheim,,https://data.whosonfirst.org/101/813/041/101813041.geojson
+Jülich,juelich.json,https://data.whosonfirst.org/101/809/901/101809901.geojson
+Hoyerswerda,,https://data.whosonfirst.org/101/822/133/101822133.geojson
+Bernburg (Saale),bernburg.json,https://data.whosonfirst.org/101/821/031/101821031.geojson
+Wernigerode,,https://data.whosonfirst.org/101/820/907/101820907.geojson
+Haltern am See,haltern_am see.json,https://data.whosonfirst.org/101/808/913/101808913.geojson
+Bad Nauheim,bad_nauheim.json,https://data.whosonfirst.org/101/812/195/101812195.geojson
+Biberach an der Riß,biberach_an_der_riss.json,https://data.whosonfirst.org/101/828/681/101828681.geojson
+Mühlhausen/Thüringen,muehlhausen_thueringen.json,https://data.whosonfirst.org/101/841/301/101841301.geojson
+Limburg an der Lahn,limburg_an_der_lahn.json,https://data.whosonfirst.org/101/840/081/101840081.geojson
+Porta Westfalica,porta_westfalica.json,https://data.whosonfirst.org/117/561/132/5/1175611325.geojson
+St. Ingbert,st_ingbert.json,https://data.whosonfirst.org/101/759/617/101759617.geojson
+Voerde (Niederrhein),voerde.json,https://data.whosonfirst.org/101/808/919/101808919.geojson
+Langen (Hessen),langen_hessen.json,https://data.whosonfirst.org/101/811/749/101811749.geojson
+Meschede,,https://data.whosonfirst.org/101/839/495/101839495.geojson
+Andernach,,https://data.whosonfirst.org/101/755/949/101755949.geojson
+Taunusstein,,https://data.whosonfirst.org/101/811/959/101811959.geojson
+Riesa,,https://data.whosonfirst.org/101/822/065/101822065.geojson
+Ennepetal,,https://data.whosonfirst.org/101/756/011/101756011.geojson
+Weil am Rhein,weil_am_rhein.json,https://data.whosonfirst.org/117/561/128/5/1175611285.geojson,47.605897|7.610752
+Osterholz-Scharmbeck,,https://data.whosonfirst.org/101/806/291/101806291.geojson
+Lohmar,,https://data.whosonfirst.org/101/810/995/101810995.geojson
+Haan,,https://data.whosonfirst.org/101/755/993/101755993.geojson
+Geesthacht,,https://data.whosonfirst.org/101/842/251/101842251.geojson
+Weyhe,,https://data.whosonfirst.org/101/838/075/101838075.geojson
+Gevelsberg,,https://data.whosonfirst.org/101/914/225/101914225.geojson
+Burgdorf,,https://data.whosonfirst.org/101/846/357/101846357.geojson,52.471291|10.017482
+Schönebeck,schoenebeck.json,https://data.whosonfirst.org/101/821/037/101821037.geojson
+Emmerich am Rhein,emmerich_am_rhein.json,https://data.whosonfirst.org/101/808/985/101808985.geojson
+Radolfzell am Bodensee,radolfzell_am_bodensee.json,https://data.whosonfirst.org/101/765/267/101765267.geojson
+Landau in der Pfalz,landau_in_der_pfalz.json,https://data.whosonfirst.org/101/760/711/101760711.geojson
+Lahr/Schwarzwald,lahr_schwarzwald.json,https://data.whosonfirst.org/101/763/057/101763057.geojson
+Bad Oeynhausen,bad_oeynhausen.json,https://data.whosonfirst.org/101/838/067/101838067.geojson
+Heidenheim an der Brenz,heidenheim_an_der_brenz.json,https://data.whosonfirst.org/101/761/787/101761787.geojson
+Bad Kreuznach,bad_kreuznach.json,https://data.whosonfirst.org/101/839/957/101839957.geojson
+Menden (Sauerland),menden_sauerland.json,https://data.whosonfirst.org/101/748/691/101748691.geojson
+Neustadt an der Weinstraße,neustadt_an_der_weinstrasse.json,https://data.whosonfirst.org/101/748/533/101748533.geojson
+Bad Homburg vor der Höhe,bad_homburg_vor_der_hoehe.json,https://data.whosonfirst.org/101/748/581/101748581.geojson
+Lingen (Ems),lingen.json,https://data.whosonfirst.org/101/748/833/101748833.geojson
+Sankt Augustin,sankt_augustin.json,https://data.whosonfirst.org/101/748/605/101748605.geojson
+Stolberg (Rheinland),stolberg.json,https://data.whosonfirst.org/101/748/619/101748619.geojson
+Frankfurt (Oder),frankfurt_(oder).json,https://data.whosonfirst.org/101/748/801/101748801.geojson
+Buchholz in der Nordheide,buchholz_in_der_nordheide.json,https://data.whosonfirst.org/101/804/181/101804181.geojson
+Hofheim am Taunus,hofheim_am_taunus.json,https://data.whosonfirst.org/101/755/941/101755941.geojson
+Neumarkt in der Oberpfalz,neumarkt_in_der_oberpfalz.json,https://data.whosonfirst.org/101/782/055/101782055.geojson
+Schwäbisch Hall,schwaebisch_hall.json,https://data.whosonfirst.org/101/760/913/101760913.geojson
+Kirchheim unter Teck,kirchheim_unter_teck.json,https://data.whosonfirst.org/101/763/149/101763149.geojson
+Monheim am Rhein,monheim_am_rhein.json,https://data.whosonfirst.org/101/755/997/101755997.geojson
+Weiden in der Oberpfalz,weiden_in_der_oberpfalz.json,https://data.whosonfirst.org/101/842/197/101842197.geojson
+Rottenburg am Neckar,rottenburg_am_neckar.json,https://data.whosonfirst.org/101/762/945/101762945.geojson
+Neustadt am Rübenberge,neustadt_am_ruebenberge.json,https://data.whosonfirst.org/101/807/693/101807693.geojson
+Bad Vilbel,bad_vilbel.json,https://data.whosonfirst.org/101/812/201/101812201.geojson
+Bad Rappenau,bad_rappenau.json,https://data.whosonfirst.org/101/760/875/101760875.geojson
+Northeim,,https://data.whosonfirst.org/101/808/961/101808961.geojson
+Landsberg am Lech,landsberg_am_lech.json,https://data.whosonfirst.org/101/786/557/101786557.geojson
+Friedberg (Hessen),friedberg_hessen.json,https://data.whosonfirst.org/101/812/197/101812197.geojson
+Güstrow,guestrow.json,https://data.whosonfirst.org/101/818/857/101818857.geojson
+Tönisvorst,toenisvorst.json,https://data.whosonfirst.org/101/755/999/101755999.geojson
+Oelde,,https://data.whosonfirst.org/101/809/063/101809063.geojson
+Waltrop,,https://data.whosonfirst.org/101/808/911/101808911.geojson
+Bretten,,https://data.whosonfirst.org/101/760/715/101760715.geojson
+Rietberg,,https://data.whosonfirst.org/101/809/091/101809091.geojson
+Vaihingen an der Enz,vaihingen_an_der_enz.json,https://data.whosonfirst.org/101/827/559/101827559.geojson
+Wedemark,,https://data.whosonfirst.org/101/807/705/101807705.geojson
+Werne,,https://data.whosonfirst.org/101/808/885/101808885.geojson
+Neuburg an der Donau,neuburg_an_der_donau.json,https://data.whosonfirst.org/101/782/999/101782999.geojson
+Merzig,,https://data.whosonfirst.org/101/814/743/101814743.geojson
+Gaggenau,,https://data.whosonfirst.org/101/874/337/101874337.geojson
+Bad Hersfeld,bad_hersfeld.json,https://data.whosonfirst.org/101/811/045/101811045.geojson
+Friedberg (Bayern),friedberg_bayern.json,https://data.whosonfirst.org/101/755/887/101755887.geojson
+Schwedt/Oder,schwedt_oder.json,https://data.whosonfirst.org/101/818/553/101818553.geojson
+Geislingen an der Steige,geislingen_an_der_steige.json,https://data.whosonfirst.org/101/826/699/101826699.geojson
+Wegberg,,https://data.whosonfirst.org/101/809/937/101809937.geojson
+Grimma,,https://data.whosonfirst.org/101/821/999/101821999.geojson
+Bad Neuenahr-Ahrweiler,bad_neuenahr-ahrweiler.json,https://data.whosonfirst.org/101/810/665/101810665.geojson
+Idar-Oberstein,,https://data.whosonfirst.org/101/813/217/101813217.geojson
+Winnenden,,https://data.whosonfirst.org/101/828/561/101828561.geojson
+Mühlheim am Main,muehlheim_am_main.json,https://data.whosonfirst.org/101/755/933/101755933.geojson
+Rendsburg,,https://data.whosonfirst.org/101/838/143/101838143.geojson
+Schwelm,,https://data.whosonfirst.org/101/756/009/101756009.geojson
+Bad Zwischenahn,bad_zwischenahn.json,https://data.whosonfirst.org/101/806/279/101806279.geojson
+Rösrath,roesrath.json,https://data.whosonfirst.org/101/811/107/101811107.geojson
+Höxter,hoexter.json,https://data.whosonfirst.org/101/808/955/101808955.geojson
+Schwandorf,,https://data.whosonfirst.org/101/780/749/101780749.geojson
+Bühl,buehl.json,https://data.whosonfirst.org/101/761/895/101761895.geojson
+Unterschleißheim,unterschleissheim.json,https://data.whosonfirst.org/101/832/991/101832991.geojson
+Springe,,https://data.whosonfirst.org/101/807/687/101807687.geojson
+Kelkheim (Taunus),kelkheim.json,https://data.whosonfirst.org/101/811/873/101811873.geojson
+Wetter (Ruhr),wetter_ruhr.json,https://data.whosonfirst.org/101/810/087/101810087.geojson
+Hattersheim am Main,hattersheim_am_main.json,https://data.whosonfirst.org/101/755/939/101755939.geojson
+Mechernich,,https://data.whosonfirst.org/101/810/845/101810845.geojson
+Reinbek,,https://data.whosonfirst.org/101/756/053/101756053.geojson
+Verden (Aller),verden_aller.json,https://data.whosonfirst.org/101/808/019/101808019.geojson
+Saalfeld/Saale,saalfeld_saale.json,https://data.whosonfirst.org/101/824/577/101824577.geojson
+Olching,,https://data.whosonfirst.org/101/755/875/101755875.geojson
+Baunatal,,https://data.whosonfirst.org/101/808/865/101808865.geojson
+Sundern (Sauerland),sundern_sauerland.json,https://data.whosonfirst.org/101/810/129/101810129.geojson
+Blankenfelde-Mahlow,,https://data.whosonfirst.org/101/819/589/101819589.geojson
+Emmendingen,,https://data.whosonfirst.org/101/826/685/101826685.geojson
+Zeitz,,https://data.whosonfirst.org/101/823/457/101823457.geojson
+Kevelaer,,https://data.whosonfirst.org/101/808/987/101808987.geojson
+Leichlingen (Rheinland),leichlingen_rheinland.json,https://data.whosonfirst.org/101/755/987/101755987.geojson
+Meißen,meissen.json,https://data.whosonfirst.org/101/822/929/101822929.geojson
+Henstedt-Ulzburg,,https://data.whosonfirst.org/101/755/857/101755857.geojson
+Rödermark,roedermark.json,https://data.whosonfirst.org/101/813/543/101813543.geojson
+Königsbrunn,koenigsbrunn.json,https://data.whosonfirst.org/101/755/843/101755843.geojson
+Strausberg,,https://data.whosonfirst.org/101/819/899/101819899.geojson
+Hamminkeln,,https://data.whosonfirst.org/101/808/929/101808929.geojson
+Wiesloch,,https://data.whosonfirst.org/101/827/435/101827435.geojson
+Lohne (Oldenburg),lohne_oldenburg.json,https://data.whosonfirst.org/101/807/809/101807809.geojson
+Schloß Holte-Stukenbrock,schloss_holte-stukenbrock.json,https://data.whosonfirst.org/101/809/095/101809095.geojson
+Wangen im Allgäu,wangen_im_allgaeu.json,https://data.whosonfirst.org/101/765/299/101765299.geojson
+Leimen (Baden),leimen_baden.json,https://data.whosonfirst.org/101/755/927/101755927.geojson
+Neukirchen-Vluyn,,https://data.whosonfirst.org/101/845/735/101845735.geojson
+Weinstadt,,https://data.whosonfirst.org/101/756/289/101756289.geojson
+Baesweiler,,https://data.whosonfirst.org/101/809/887/101809887.geojson
+Overath,,https://data.whosonfirst.org/101/810/325/101810325.geojson
+Rheinbach,,https://data.whosonfirst.org/101/810/983/101810983.geojson
+Garmisch-Partenkirchen,,https://data.whosonfirst.org/101/788/871/101788871.geojson
+Geilenkirchen,,https://data.whosonfirst.org/101/809/927/101809927.geojson
+Aschersleben,,https://data.whosonfirst.org/101/821/033/101821033.geojson
+Griesheim,,https://data.whosonfirst.org/101/813/389/101813389.geojson
+Weiterstadt,,https://data.whosonfirst.org/101/913/821/101913821.geojson
+Selm,,https://data.whosonfirst.org/101/808/883/101808883.geojson
+Heppenheim (Bergstraße),heppenheim_bergstrasse.json,https://data.whosonfirst.org/101/813/033/101813033.geojson
+Mühlacker,muehlacker.json,https://data.whosonfirst.org/101/760/665/101760665.geojson
+Ludwigsfelde,,https://data.whosonfirst.org/101/819/587/101819587.geojson
+Hohen Neuendorf,hohen_neuendorf.json,https://data.whosonfirst.org/101/841/951/101841951.geojson
+Werder (Havel),werder_havel.json,https://data.whosonfirst.org/101/817/323/101817323.geojson
+Nordenham,,https://data.whosonfirst.org/101/806/471/101806471.geojson
+Butzbach,,https://data.whosonfirst.org/101/812/193/101812193.geojson
+Ehingen (Donau),ehingen_donau.json,https://data.whosonfirst.org/101/764/347/101764347.geojson
+Hennigsdorf,,https://data.whosonfirst.org/101/841/459/101841459.geojson
+Sangerhausen,,https://data.whosonfirst.org/101/822/395/101822395.geojson
+Heiligenhaus,,https://data.whosonfirst.org/101/755/995/101755995.geojson
+Remseck am Neckar,remseck_am_neckar.json,https://data.whosonfirst.org/101/756/269/101756269.geojson
+Neckarsulm,,https://data.whosonfirst.org/101/755/913/101755913.geojson
+Lauf an der Pegnitz,lauf_an_der_pegnitz.json,https://data.whosonfirst.org/101/755/847/101755847.geojson
+Schleswig,,https://data.whosonfirst.org/101/805/185/101805185.geojson
+Groß-Gerau,gross-gerau.json,https://data.whosonfirst.org/101/813/485/101813485.geojson
+Plettenberg,,https://data.whosonfirst.org/101/907/587/101907587.geojson,51.210254|7.860801
+Zittau,,https://data.whosonfirst.org/101/841/343/101841343.geojson
+Staßfurt,stassfurt.json,https://data.whosonfirst.org/101/821/029/101821029.geojson
+Brilon,,https://data.whosonfirst.org/101/808/853/101808853.geojson
+Rinteln,,https://data.whosonfirst.org/101/807/599/101807599.geojson
+Lübbecke,luebbecke.json,https://data.whosonfirst.org/101/807/671/101807671.geojson
+Lindau (Bodensee),lindau_bodensee.json,https://data.whosonfirst.org/101/828/611/101828611.geojson
+Verl,,https://data.whosonfirst.org/101/809/113/101809113.geojson
+Lennestadt,,https://data.whosonfirst.org/101/809/995/101809995.geojson
+Roth,,https://data.whosonfirst.org/101/782/031/101782031.geojson
+Zirndorf,,https://data.whosonfirst.org/101/755/915/101755915.geojson
+Achern,,https://data.whosonfirst.org/101/826/697/101826697.geojson
+Bingen am Rhein,bingen_am_rhein.json,https://data.whosonfirst.org/101/840/007/101840007.geojson
+Helmstedt,,https://data.whosonfirst.org/101/819/605/101819605.geojson,52.244896|11.039143
+Bad Honnef,bad_honnef.json,https://data.whosonfirst.org/101/755/849/101755849.geojson
+Teltow,,https://data.whosonfirst.org/101/756/031/101756031.geojson
+St. Wendel,st_wendel.json,https://data.whosonfirst.org/101/814/749/101814749.geojson
+Köthen (Anhalt),koethen_anhalt.json,https://data.whosonfirst.org/101/821/101/101821101.geojson,51.739446|11.966517
+Kulmbach,,https://data.whosonfirst.org/101/826/017/101826017.geojson
+Pfaffenhofen an der Ilm,pfaffenhofen_an_der_ilm.json,https://data.whosonfirst.org/101/784/377/101784377.geojson
+Schmallenberg,,https://data.whosonfirst.org/101/810/137/101810137.geojson
+Ditzingen,,https://data.whosonfirst.org/101/756/279/101756279.geojson
+Idstein,,https://data.whosonfirst.org/101/811/967/101811967.geojson
+Weingarten (Württemberg),weingarten_wuerttemberg.json,https://data.whosonfirst.org/101/828/651/101828651.geojson
+Obertshausen,,https://data.whosonfirst.org/101/811/745/101811745.geojson
+Unterhaching,,https://data.whosonfirst.org/101/756/229/101756229.geojson
+Ingelheim am Rhein,ingelheim_am_rhein.json,https://data.whosonfirst.org/101/839/981/101839981.geojson
+Norden,,https://data.whosonfirst.org/101/806/487/101806487.geojson
+Salzkotten,,https://data.whosonfirst.org/101/808/933/101808933.geojson
+Wiehl,,https://data.whosonfirst.org/101/810/005/101810005.geojson
+Horb am Neckar,horb_am_neckar.json,https://data.whosonfirst.org/101/763/039/101763039.geojson
+Harsewinkel,,https://data.whosonfirst.org/101/809/101/101809101.geojson
+Pfungstadt,,https://data.whosonfirst.org/101/913/823/101913823.geojson
+Petershagen,,https://data.whosonfirst.org/117/561/128/9/1175611289.geojson
+Friedrichsdorf,,https://data.whosonfirst.org/101/812/035/101812035.geojson
+Rottweil,,https://data.whosonfirst.org/101/826/687/101826687.geojson
+Geretsried,,https://data.whosonfirst.org/101/787/617/101787617.geojson
+Senftenberg,,https://data.whosonfirst.org/101/822/447/101822447.geojson
+Rathenow,,https://data.whosonfirst.org/101/819/855/101819855.geojson
+Ronnenberg,,https://data.whosonfirst.org/101/807/715/101807715.geojson
+Arnstadt,,https://data.whosonfirst.org/101/823/107/101823107.geojson
+Syke,,https://data.whosonfirst.org/101/807/913/101807913.geojson
+Attendorn,,https://data.whosonfirst.org/101/809/983/101809983.geojson
+Öhringen,oehringen.json,https://data.whosonfirst.org/101/759/601/101759601.geojson
+Isernhagen,,https://data.whosonfirst.org/101/756/503/101756503.geojson
+Stutensee,,https://data.whosonfirst.org/101/760/749/101760749.geojson
+Ellwangen (Jagst),ellwangen_jagst.json,https://data.whosonfirst.org/101/760/623/101760623.geojson
+Lüdinghausen,luedinghausen.json,https://data.whosonfirst.org/101/809/041/101809041.geojson
+Eisenhüttenstadt,eisenhuettenstadt.json,https://data.whosonfirst.org/101/819/681/101819681.geojson
+Markkleeberg,,https://data.whosonfirst.org/101/755/855/101755855.geojson
+Meckenheim,,https://data.whosonfirst.org/101/810/981/101810981.geojson
+Espelkamp,,https://data.whosonfirst.org/101/804/145/101804145.geojson
+Olpe,,https://data.whosonfirst.org/101/809/985/101809985.geojson
+Bad Oldesloe,bad_oldesloe.json,https://data.whosonfirst.org/101/818/761/101818761.geojson
+Sprockhövel,sprockhoevel.json,https://data.whosonfirst.org/101/810/085/101810085.geojson
+Warstein,,https://data.whosonfirst.org/101/810/243/101810243.geojson
+Delitzsch,,https://data.whosonfirst.org/101/822/365/101822365.geojson
+Vaterstetten,,https://data.whosonfirst.org/101/786/599/101786599.geojson
+Moormerland,,https://data.whosonfirst.org/101/806/307/101806307.geojson
+Waldkraiburg,,https://data.whosonfirst.org/101/780/677/101780677.geojson
+Freudenstadt,,https://data.whosonfirst.org/101/763/035/101763035.geojson
+Starnberg,,https://data.whosonfirst.org/101/833/969/101833969.geojson
+Bedburg,,https://data.whosonfirst.org/101/845/729/101845729.geojson
+Korbach,,https://data.whosonfirst.org/101/810/093/101810093.geojson
+Calw,,https://data.whosonfirst.org/101/761/827/101761827.geojson
+Alfter,,https://data.whosonfirst.org/101/755/969/101755969.geojson
+Salzwedel,,https://data.whosonfirst.org/101/819/873/101819873.geojson
+Bad Mergentheim,bad_mergentheim.json,https://data.whosonfirst.org/101/839/879/101839879.geojson
+Riedstadt,,https://data.whosonfirst.org/101/839/971/101839971.geojson
+Hann. Münden,hann_muenden.json,https://data.whosonfirst.org/101/810/167/101810167.geojson
+Haren (Ems),haren_ems.json,https://data.whosonfirst.org/101/808/101/101808101.geojson
+Döbeln,doebeln.json,https://data.whosonfirst.org/101/821/831/101821831.geojson
+Sonneberg,,https://data.whosonfirst.org/101/824/431/101824431.geojson
+Quedlinburg,,https://data.whosonfirst.org/101/820/903/101820903.geojson
+Varel,,https://data.whosonfirst.org/101/806/519/101806519.geojson
+Limbach-Oberfrohna,,https://data.whosonfirst.org/101/755/967/101755967.geojson
+Übach-Palenberg,uebach-palenberg.json,https://data.whosonfirst.org/117/561/139/3/1175611393.geojson
+Waldshut-Tiengen,,https://data.whosonfirst.org/101/828/617/101828617.geojson
+Lengerich,,https://data.whosonfirst.org/101/807/637/101807637.geojson
+Bad Soden am Taunus,bad_soden_am_taunus.json,https://data.whosonfirst.org/101/755/943/101755943.geojson
+Rastede,,https://data.whosonfirst.org/101/806/271/101806271.geojson
+Herdecke,,https://data.whosonfirst.org/101/914/223/101914223.geojson
+Westerstede,,https://data.whosonfirst.org/101/806/277/101806277.geojson
+Wertheim,,https://data.whosonfirst.org/101/913/675/101913675.geojson
+Leutkirch im Allgäu,leutkirch_im_allgaeu.json,https://data.whosonfirst.org/101/765/301/101765301.geojson
+Wandlitz,,https://data.whosonfirst.org/101/847/265/101847265.geojson
+Walsrode,,https://data.whosonfirst.org/101/808/055/101808055.geojson
+Gelnhausen,,https://data.whosonfirst.org/101/812/177/101812177.geojson
+Warburg,,https://data.whosonfirst.org/101/907/601/101907601.geojson,51.513635|9.092617
+Wallenhorst,,https://data.whosonfirst.org/101/807/791/101807791.geojson
+Herzogenaurach,,https://data.whosonfirst.org/101/826/949/101826949.geojson
+Netphen,,https://data.whosonfirst.org/101/756/471/101756471.geojson
+Husum,,https://data.whosonfirst.org/101/838/179/101838179.geojson
+Jüchen,juechen.json,https://data.whosonfirst.org/101/810/333/101810333.geojson
+Dillenburg,,https://data.whosonfirst.org/101/810/909/101810909.geojson
+Eisleben,,https://data.whosonfirst.org/101/820/815/101820815.geojson
+Sehnde,,https://data.whosonfirst.org/101/807/717/101807717.geojson
+Mosbach,,https://data.whosonfirst.org/101/826/809/101826809.geojson
+Radevormwald,,https://data.whosonfirst.org/101/810/001/101810001.geojson
+Karben,,https://data.whosonfirst.org/101/812/231/101812231.geojson
+Spremberg,,https://data.whosonfirst.org/101/820/737/101820737.geojson
+Stadthagen,,https://data.whosonfirst.org/101/838/047/101838047.geojson
+Rudolstadt,,https://data.whosonfirst.org/101/824/027/101824027.geojson
+Nagold,,https://data.whosonfirst.org/101/763/179/101763179.geojson
+Laupheim,,https://data.whosonfirst.org/101/764/257/101764257.geojson
+Senden (Bayern),senden_bayern.json,https://data.whosonfirst.org/101/762/897/101762897.geojson
+Edewecht,,https://data.whosonfirst.org/101/907/789/101907789.geojson,53.117652|7.992387
+Gardelegen,,https://data.whosonfirst.org/101/819/875/101819875.geojson
+Glauchau,,https://data.whosonfirst.org/101/841/231/101841231.geojson
+Bad Kissingen,bad_kissingen.json,https://data.whosonfirst.org/101/812/049/101812049.geojson
+Friesoythe,,https://data.whosonfirst.org/101/806/255/101806255.geojson
+Gersthofen,,https://data.whosonfirst.org/101/755/889/101755889.geojson
+Weilheim in Oberbayern,weilheim_in_oberbayern.json,https://data.whosonfirst.org/101/787/569/101787569.geojson
+Burg,,https://data.whosonfirst.org/101/909/703/101909703.geojson,52.28463|11.85656
+Donaueschingen,,https://data.whosonfirst.org/101/828/671/101828671.geojson
+Überlingen,ueberlingen.json,https://data.whosonfirst.org/101/765/211/101765211.geojson
+Vreden,,https://data.whosonfirst.org/101/809/155/101809155.geojson
+Halle (Westf.),halle_westf..json,https://data.whosonfirst.org/101/809/093/101809093.geojson
+Zerbst/Anhalt,zerbst.json,https://data.whosonfirst.org/101/821/099/101821099.geojson
+Elsdorf,,https://data.whosonfirst.org/101/809/909/101809909.geojson
+Heide,,https://data.whosonfirst.org/101/838/125/101838125.geojson
+Xanten,,https://data.whosonfirst.org/101/808/917/101808917.geojson
+Kitzingen,,https://data.whosonfirst.org/101/810/607/101810607.geojson
+Osterode am Harz,osterode_am_harz.json,https://data.whosonfirst.org/101/808/895/101808895.geojson
+Hockenheim,,https://data.whosonfirst.org/101/759/671/101759671.geojson
+Rotenburg (Wümme),rotenburg_wuemme.json,https://data.whosonfirst.org/101/806/397/101806397.geojson
+Waldkirch,,https://data.whosonfirst.org/101/842/633/101842633.geojson
+Kaltenkirchen,,https://data.whosonfirst.org/101/806/741/101806741.geojson
+Eppingen,,https://data.whosonfirst.org/101/760/883/101760883.geojson
+Eckernförde,eckernfoerde.json,https://data.whosonfirst.org/101/805/145/101805145.geojson
+Bad Harzburg,bad_harzburg.json,https://data.whosonfirst.org/101/820/881/101820881.geojson
+Büdingen,buedingen.json,https://data.whosonfirst.org/101/812/209/101812209.geojson
+Apolda,,https://data.whosonfirst.org/101/823/283/101823283.geojson
+Metzingen,,https://data.whosonfirst.org/101/826/691/101826691.geojson
+Neusäß,neusaess.json,https://data.whosonfirst.org/101/755/891/101755891.geojson
+Coswig,,https://data.whosonfirst.org/101/756/005/101756005.geojson
+Eislingen/Fils,eislingen_fils,https://data.whosonfirst.org/101/755/893/101755893.geojson
+Waghäusel,waghaeusel.json,https://data.whosonfirst.org/101/760/729/101760729.geojson
+Rees,,https://data.whosonfirst.org/101/907/661/101907661.geojson,51.773413|6.420402
+Traunreut,,https://data.whosonfirst.org/101/787/769/101787769.geojson
+Wipperfürth,wipperfuerth.json,https://data.whosonfirst.org/101/907/599/101907599.geojson,51.112006|7.402286
+Westoverledingen,,https://data.whosonfirst.org/101/845/741/101845741.geojson
+Wülfrath,wuelfrath.json,https://data.whosonfirst.org/101/810/023/101810023.geojson
+Waren (Müritz),waren_mueritz.json,https://data.whosonfirst.org/101/818/633/101818633.geojson
+Neu Wulmstorf,neu_wulmstorf.json,https://data.whosonfirst.org/101/756/515/101756515.geojson
+Groß-Umstadt,gross-umstadt.json,https://data.whosonfirst.org/101/813/419/101813419.geojson
+Meiningen,,https://data.whosonfirst.org/101/824/663/101824663.geojson
+Haar,,https://data.whosonfirst.org/101/756/219/101756219.geojson
+Büren,bueren.json,https://data.whosonfirst.org/101/810/347/101810347.geojson
+Flörsheim am Main,floersheim_am_main.json,https://data.whosonfirst.org/101/756/411/101756411.geojson
+Karlsfeld,,https://data.whosonfirst.org/101/756/231/101756231.geojson
+Wittmund,,https://data.whosonfirst.org/101/806/513/101806513.geojson
+Stadtlohn,,https://data.whosonfirst.org/101/809/223/101809223.geojson
+Mühldorf am Inn,muehldorf.json,https://data.whosonfirst.org/101/785/349/101785349.geojson
+Panketal,,https://data.whosonfirst.org/101/756/045/101756045.geojson
+Traunstein,,https://data.whosonfirst.org/101/787/767/101787767.geojson
+Luckenwalde,,https://data.whosonfirst.org/101/821/183/101821183.geojson
+Gauting,,https://data.whosonfirst.org/101/786/453/101786453.geojson
+Kleinmachnow,,https://data.whosonfirst.org/101/756/027/101756027.geojson
+Herborn,,https://data.whosonfirst.org/101/810/901/101810901.geojson
+Reichenbach im Vogtland,reichenbach_im_vogtland.json,https://data.whosonfirst.org/101/841/169/101841169.geojson
+Blieskastel,,https://data.whosonfirst.org/101/759/619/101759619.geojson
+Steinhagen,,https://data.whosonfirst.org/101/809/105/101809105.geojson
+Günzburg,guenzburg.json,https://data.whosonfirst.org/101/826/689/101826689.geojson
+Fröndenberg/Ruhr,froendenberg_ruhr.json,https://data.whosonfirst.org/101/810/253/101810253.geojson
+Germersheim,,https://data.whosonfirst.org/101/760/767/101760767.geojson
+Werdau,,https://data.whosonfirst.org/101/841/227/101841227.geojson
+Bad Schwartau,bad_schwartau.json,https://data.whosonfirst.org/101/756/057/101756057.geojson
+Dillingen/Saar,dillingen_saar.json,https://data.whosonfirst.org/101/842/179/101842179.geojson
+Torgau,,https://data.whosonfirst.org/101/841/375/101841375.geojson
+Oberkirch,,https://data.whosonfirst.org/101/763/087/101763087.geojson
+Donauwörth,donauwoerth.json,https://data.whosonfirst.org/101/783/123/101783123.geojson
+Wilnsdorf,,https://data.whosonfirst.org/101/811/101/101811101.geojson
+Greiz,,https://data.whosonfirst.org/101/824/717/101824717.geojson
+Lichtenfels,,https://data.whosonfirst.org/101/825/899/101825899.geojson
+Neustrelitz,,https://data.whosonfirst.org/101/818/653/101818653.geojson
+Hörstel,hoerstel.json,https://data.whosonfirst.org/101/807/663/101807663.geojson
+Zülpich,zuelpich.json,https://data.whosonfirst.org/101/810/849/101810849.geojson
+Schifferstadt,,https://data.whosonfirst.org/101/826/797/101826797.geojson
+Neufahrn bei Freising,neufahrn_bei_freising.json,https://data.whosonfirst.org/101/834/007/101834007.geojson
+Bad Salzungen,bad_salzungen.json,https://data.whosonfirst.org/101/839/487/101839487.geojson
+Uetze,,https://data.whosonfirst.org/101/807/701/101807701.geojson
+Schwanewede,,https://data.whosonfirst.org/101/913/881/101913881.geojson
+Bad Waldsee,bad_waldsee.json,https://data.whosonfirst.org/101/764/005/101764005.geojson
+#########
+# islands
+#########
+Helgoland,,https://data.whosonfirst.org/101/806/951/101806951.geojson,54.180729|7.889039
+Norderney,,https://data.whosonfirst.org/101/806/531/101806531.geojson,53.71369|7.239297
+Juist,,https://data.whosonfirst.org/101/846/427/101846427.geojson
+Borkum,,https://data.whosonfirst.org/101/806/485/101806485.geojson
+Baltrum,,https://data.whosonfirst.org/101/906/071/101906071.geojson
+Langeoog,,https://data.whosonfirst.org/101/806/535/101806535.geojson
+Spiekeroog,,https://data.whosonfirst.org/101/906/075/101906075.geojson
+Wangerooge,,https://data.whosonfirst.org/101/906/077/101906077.geojson
+#########
+# other
+#########
+# index all islands
+# ultimate goal, index all cities with a population > 1000
+# https://de.wikipedia.org/wiki/Liste_deutscher_Gemeinden,_nach_der_Bev%C3%B6lkerungsdichte_geordnet
+# https://de.wikipedia.org/wiki/Liste_der_kleinsten_Gemeinden_in_Deutschland_nach_Einwohnerzahl
+# https://de.wikipedia.org/wiki/Liste_der_kleinsten_Städte_in_Deutschland_nach_Einwohnerzahl
+# https://de.wikipedia.org/wiki/Liste_der_flächenkleinsten_Gemeinden_in_Deutschland
+## More at https://www.citypopulation.de/de/germany/

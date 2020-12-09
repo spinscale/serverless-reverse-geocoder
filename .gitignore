@@ -1,0 +1,12 @@
+.serverless
+.gradle
+.idea
+**.iml
+*.ipr
+*.iws
+build
+out
+node_modules
+package-lock.json
+indexer/src/main/resources/DE.tab
+indexer/src/main/resources/downloads/

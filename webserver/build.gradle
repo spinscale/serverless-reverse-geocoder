@@ -1,0 +1,64 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+mainClassName = 'de.spinscale.webserver.Webserver'
+
+dependencies {
+  compile project(':searcher')
+  compile 'io.javalin:javalin:3.12.0'
+  compile 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
+  // rethink if you want this logger, or something easier for graal
+  compile 'org.slf4j:slf4j-simple:1.8.0-beta4'
+
+  // we don't need this, unless we try to compile a graal native image...
+  // you can look up the corresponding versions in io.javalin.core.util.OptionalDependency
+  compile 'com.nixxcode.jvmbrotli:jvmbrotli:0.2.0'
+  // same for jackson
+  compile "com.fasterxml.jackson.core:jackson-databind:2.10.3"
+}
+
+task fatJar(type: Jar) {
+  manifest {
+    attributes(
+      "Main-Class": "de.spinscale.webserver.Webserver",
+      "Implementation-Version": archiveVersion,
+      "Implementation-Title": "Graal Image"
+    )
+  }
+  archiveBaseName = project.name + '-all'
+  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  with jar
+}
+
+task copyIndex(type: Copy) {
+  from '../indexer/build/indices'
+  into 'build/data/'
+}
+
+task dockerBuildImage(type : Exec) {
+  description "build native graal docker image"
+  def date = new Date().format('yyyyMMdd-HHmm')
+  def imageName = 'spinscale/gcr-serverless-reverse-geocoder'
+  def gCloudImageName = 'gcr.io/serverless-reverse-geocoder/gcr-serverless-reverse-geocoder'
+  commandLine 'docker', 'build', '-t', imageName + ':latest', '-t', imageName + ':' + date, '-t', gCloudImageName + ":latest", '.'
+}
+
+task dockerRunLatest(type : Exec) {
+  description "run latest docker image"
+  commandLine 'docker', 'run', '--init', '-p', '7000:7000/tcp', '--env', 'PORT=7000', 'spinscale/gcr-serverless-reverse-geocoder:latest'
+}
+
+run {
+  environment 'PORT', '7000'
+  environment 'AUTH_FILE', 'build/resources/test/auth.fst'
+  environment 'INDEX_DIRECTORY', 'build/data'
+}
+
+// ensure the index has been created properly
+dockerRunLatest.dependsOn ( 'dockerBuildImage' )
+test.dependsOn (':indexer:buildIndex')
+assemble.dependsOn (':indexer:buildIndex')
+assemble.dependsOn ('fatJar')
+assemble.dependsOn ('copyIndex')

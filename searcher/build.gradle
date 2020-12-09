@@ -1,0 +1,7 @@
+plugins {
+  id 'java'
+}
+
+test.dependsOn(':indexer:buildIndex')
+
+test.systemProperty 'buildIndexDirectory', project(':indexer').buildDir.toString() + "/lucene"

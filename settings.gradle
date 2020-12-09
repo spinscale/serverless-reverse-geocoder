@@ -1,0 +1,6 @@
+rootProject.name = 'serverless-reverse-geocoder'
+include 'indexer'
+include 'searcher'
+include 'aws-lambda'
+include 'cli'
+include 'webserver'

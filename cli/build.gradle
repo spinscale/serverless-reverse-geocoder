@@ -1,0 +1,41 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.mikeneck.graalvm-native-image' version 'v0.9.0'
+}
+
+application {
+  mainClassName = 'de.spinscale.cli.CliSearcher'
+}
+
+task fatJar(type: Jar) {
+  manifest {
+    attributes(
+      "Main-Class": "de.spinscale.cli.CliSearcher",
+      "Implementation-Version": archiveVersion,
+      "Implementation-Title": "CLI Searcher"
+    )
+  }
+  archiveBaseName = project.name + '-all'
+  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  with jar
+}
+
+nativeImage {
+  graalVmHome = System.getProperty('java.home')
+  mainClass = 'de.spinscale.cli.CliSearcher'
+  executableName = 'cli-searcher'
+  outputDirectory = file("$buildDir/bin")
+  arguments(
+          '--no-fallback',
+          '--initialize-at-build-time=de.spinscale,org.apache.lucene',
+          '--report-unsupported-elements-at-runtime'
+  )
+}
+
+dependencies {
+    compile project(':searcher')
+}
+
+test.dependsOn (':indexer:buildIndex')
+assemble.dependsOn (':cli:fatJar')
