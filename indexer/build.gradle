@@ -4,8 +4,8 @@ plugins {
 }
 
 dependencies {
-  implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.0'
-  implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+  implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.3'
+  implementation 'com.squareup.okhttp3:okhttp:4.9.1'
 }
 
 task(buildIndex, dependsOn: 'classes', type: JavaExec) {

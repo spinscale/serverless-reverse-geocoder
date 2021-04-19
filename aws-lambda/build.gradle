@@ -10,8 +10,6 @@ dependencies {
     runtimeOnly 'com.amazonaws:aws-lambda-java-log4j:1.0.1'
 }
 
-println configurations
-
 task buildZip(type: Zip) {
     // set the base name of the zip file
     baseName = "searcher-germany"
