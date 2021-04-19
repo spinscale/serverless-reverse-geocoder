@@ -3,12 +3,14 @@ plugins {
 }
 
 dependencies {
-    compile project(':searcher')
-    compile 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
+    implementation project(':searcher')
+    implementation 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
 
     implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
     runtimeOnly 'com.amazonaws:aws-lambda-java-log4j:1.0.1'
 }
+
+println configurations
 
 task buildZip(type: Zip) {
     // set the base name of the zip file
@@ -19,7 +21,7 @@ task buildZip(type: Zip) {
       from project(':indexer').buildDir.toString() + '/indices'
     }
     into('lib') {
-        from configurations.runtime
+        from configurations.implementation
     }
 }
 

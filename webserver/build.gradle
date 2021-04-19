@@ -6,17 +6,17 @@ plugins {
 mainClassName = 'de.spinscale.webserver.Webserver'
 
 dependencies {
-  compile project(':searcher')
-  compile 'io.javalin:javalin:3.12.0'
-  compile 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
+  implementation project(':searcher')
+  implementation 'io.javalin:javalin:3.12.0'
+  implementation 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
   // rethink if you want this logger, or something easier for graal
-  compile 'org.slf4j:slf4j-simple:1.8.0-beta4'
+  implementation 'org.slf4j:slf4j-simple:1.8.0-beta4'
 
-  // we don't need this, unless we try to compile a graal native image...
+  // we don't need this, unless we try to implementation a graal native image...
   // you can look up the corresponding versions in io.javalin.core.util.OptionalDependency
-  compile 'com.nixxcode.jvmbrotli:jvmbrotli:0.2.0'
+  implementation 'com.nixxcode.jvmbrotli:jvmbrotli:0.2.0'
   // same for jackson
-  compile "com.fasterxml.jackson.core:jackson-databind:2.10.3"
+  implementation "com.fasterxml.jackson.core:jackson-databind:2.10.3"
 }
 
 task fatJar(type: Jar) {
@@ -28,7 +28,10 @@ task fatJar(type: Jar) {
     )
   }
   archiveBaseName = project.name + '-all'
-  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  from { 
+    duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE
+    configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
+  }
   with jar
 }
 

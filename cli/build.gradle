@@ -17,7 +17,10 @@ task fatJar(type: Jar) {
     )
   }
   archiveBaseName = project.name + '-all'
-  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  from { 
+    duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE
+    configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
+  }
   with jar
 }
 
@@ -34,7 +37,7 @@ nativeImage {
 }
 
 dependencies {
-    compile project(':searcher')
+    implementation project(':searcher')
 }
 
 test.dependsOn (':indexer:buildIndex')
