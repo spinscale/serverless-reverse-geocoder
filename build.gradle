@@ -34,3 +34,10 @@ subprojects {
     version = '0.0.1'
 }
 
+task dockerBuildImage(type : Exec) {
+  description "build native graal docker image"
+  def date = new Date().format('yyyyMMdd-HHmm')
+  def imageName = 'spinscale/gcr-serverless-reverse-geocoder'
+  def gCloudImageName = 'gcr.io/serverless-reverse-geocoder/gcr-serverless-reverse-geocoder'
+  commandLine 'docker', 'build', '-t', imageName + ':latest', '-t', imageName + ':' + date, '-t', gCloudImageName + ":latest", '.'
+}

@@ -21,7 +21,7 @@ spent a lot of time fixing all the paths.
 Make sure GraalVM is installed, if you have [sdkman](https://sdkman.io) installed, run
 
 ```bash
-sdk install java 20.3.0.r11-grl
+sdk install java 21.0.0.2.r11-grl
 ```
 
 Download the geo shape and point data by running 
@@ -58,10 +58,11 @@ Creating the docker image can be done via (this will take some time as building
 in Docker might not be super fast)
 
 ```bash
-./gradlew :webserver:dockerBuildImage
+./gradlew :dockerBuildImage
 ```
 
-You can run that created docker image locally via 
+You can run that created docker image locally via (note this will build
+first)
 
 ```bash
 ./gradlew :webserver:dockerRunLatest

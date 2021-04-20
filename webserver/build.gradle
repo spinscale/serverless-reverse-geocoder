@@ -1,6 +1,7 @@
 plugins {
   id 'java'
   id 'application'
+  id 'org.mikeneck.graalvm-native-image' version '1.3.0'
 }
 
 mainClassName = 'de.spinscale.webserver.Webserver'
@@ -29,7 +30,7 @@ task fatJar(type: Jar) {
   }
   archiveBaseName = project.name + '-all'
   from { 
-    duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE
+    duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.INCLUDE
     configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) }
   }
   with jar
@@ -40,12 +41,21 @@ task copyIndex(type: Copy) {
   into 'build/data/'
 }
 
-task dockerBuildImage(type : Exec) {
-  description "build native graal docker image"
-  def date = new Date().format('yyyyMMdd-HHmm')
-  def imageName = 'spinscale/gcr-serverless-reverse-geocoder'
-  def gCloudImageName = 'gcr.io/serverless-reverse-geocoder/gcr-serverless-reverse-geocoder'
-  commandLine 'docker', 'build', '-t', imageName + ':latest', '-t', imageName + ':' + date, '-t', gCloudImageName + ":latest", '.'
+nativeImage {
+  graalVmHome = System.getProperty('java.home')
+  mainClass = 'de.spinscale.webserver.Webserver'
+  executableName = 'webserver'
+  outputDirectory = file("$buildDir/bin")
+  arguments(
+          '--no-fallback',
+          // hack to only run static compilation under Linux
+          org.gradle.internal.os.OperatingSystem.current().isLinux() ? '--static' : '',
+          '--initialize-at-build-time=de.spinscale,org.apache.lucene,javax.servlet',
+          '--report-unsupported-elements-at-runtime',
+          '-H:+ReportExceptionStackTraces',
+          '-H:+UseServiceLoaderFeature',
+          '-H:IncludeResourceBundles=javax.servlet.LocalStrings',
+  )
 }
 
 task dockerRunLatest(type : Exec) {
@@ -60,7 +70,7 @@ run {
 }
 
 // ensure the index has been created properly
-dockerRunLatest.dependsOn ( 'dockerBuildImage' )
+dockerRunLatest.dependsOn ( ':dockerBuildImage' )
 test.dependsOn (':indexer:buildIndex')
 assemble.dependsOn (':indexer:buildIndex')
 assemble.dependsOn ('fatJar')
