@@ -10,3 +10,5 @@ node_modules
 package-lock.json
 indexer/src/main/resources/DE.tab
 indexer/src/main/resources/downloads/
+.env
+.envrc
